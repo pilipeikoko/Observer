@@ -23,6 +23,7 @@ public class CustomTriangleWarehouse {
 
     public void setProperty(long id, CustomTriangleProperties newProperties) {
         trianglePropertiesMap.put(id,newProperties);
+        LOGGER.info("Properties are set: " + newProperties.toString());
     }
 
     public CustomTriangleProperties getProperty(long id) {
@@ -33,10 +34,9 @@ public class CustomTriangleWarehouse {
 
     public void updateProperties(long id, CustomTriangleProperties newProperties) {
         CustomTriangleProperties currentProperties = getProperty(id);
-        //todo null check and put into map
 
         currentProperties.setPerimeter(newProperties.getPerimeter());
         currentProperties.setArea(newProperties.getArea());
-        //todo logger
+        LOGGER.info("Properties updated: " + newProperties);
     }
 }
