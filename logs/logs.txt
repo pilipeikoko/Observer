@@ -1,6 +1,198 @@
-2021-05-04 11:12:22 [main] INFO  org.example.shape.validator.CustomTriangleValidator - Couldn't parse to double: Hello world
-2021-05-04 11:12:22 [main] INFO  org.example.shape.validator.CustomTriangleValidator - Couldn't parse to double: not double values
-2021-05-04 11:13:11 [main] INFO  org.example.shape.validator.CustomTriangleValidator - Couldn't parse to double: Hello world
-2021-05-04 11:13:11 [main] INFO  org.example.shape.validator.CustomTriangleValidator - Couldn't parse to double: not double values and double values 125.1
-2021-05-04 11:14:03 [main] INFO  org.example.shape.validator.CustomTriangleValidator - Couldn't parse to double: not double values and double values 13123.12
-2021-05-04 11:14:03 [main] INFO  org.example.shape.validator.CustomTriangleValidator - Couldn't parse to double: not double values and double values 125.1
+2021-05-04 11:12:22 [main] INFO  CustomTriangleValidator - Couldn't parse to double: Hello world
+2021-05-04 11:12:22 [main] INFO  CustomTriangleValidator - Couldn't parse to double: not double values
+2021-05-04 11:13:11 [main] INFO  CustomTriangleValidator - Couldn't parse to double: Hello world
+2021-05-04 11:13:11 [main] INFO  CustomTriangleValidator - Couldn't parse to double: not double values and double values 125.1
+2021-05-04 11:14:03 [main] INFO  CustomTriangleValidator - Couldn't parse to double: not double values and double values 13123.12
+2021-05-04 11:14:03 [main] INFO  CustomTriangleValidator - Couldn't parse to double: not double values and double values 125.1
+2021-05-04 11:36:32 [main] INFO  CustomTriangleService - Perimeter found: 12.867399147927191
+2021-05-04 11:36:32 [main] INFO  CustomTriangleService - Area found: 7.2499999999999964
+2021-05-04 11:36:32 [main] INFO  CustomTriangleService - Perimeter found: 12.867399147927191
+2021-05-04 11:36:32 [main] INFO  CustomTriangleWarehouse - Properties are set: CustomTriangleProperties{area=7.2499999999999964, perimeter=12.867399147927191}
+2021-05-04 11:36:32 [main] INFO  CustomTriangleService - Perimeter found: 11.650269991602247
+2021-05-04 11:36:32 [main] INFO  CustomTriangleService - Perimeter found: 11.650269991602247
+2021-05-04 11:36:32 [main] INFO  CustomTriangleService - Area found: 3.154999999999997
+2021-05-04 11:36:32 [main] INFO  CustomTriangleWarehouse - Get properties: 0CustomTriangleProperties{area=7.2499999999999964, perimeter=12.867399147927191}
+2021-05-04 11:36:32 [main] INFO  CustomTriangleWarehouse - Properties updated: CustomTriangleProperties{area=3.154999999999997, perimeter=11.650269991602247}
+2021-05-04 11:36:32 [main] INFO  example.shape.observer.impl.CustomTriangleObserverImpl - Parameters updated: 0CustomTriangleProperties{area=3.154999999999997, perimeter=11.650269991602247}
+2021-05-04 11:36:32 [main] INFO  CustomTriangleService - Perimeter found: 11.650269991602247
+2021-05-04 11:36:32 [main] INFO  CustomTriangleWarehouse - Get properties: 0CustomTriangleProperties{area=3.154999999999997, perimeter=11.650269991602247}
+2021-05-04 11:36:32 [main] INFO  CustomTriangleService - Perimeter found: 10.838279253109407
+2021-05-04 11:36:32 [main] INFO  CustomTriangleService - Perimeter found: 10.838279253109407
+2021-05-04 11:36:32 [main] INFO  CustomTriangleService - Area found: 0.45500000000000534
+2021-05-04 11:36:32 [main] INFO  CustomTriangleWarehouse - Get properties: 0CustomTriangleProperties{area=3.154999999999997, perimeter=11.650269991602247}
+2021-05-04 11:36:32 [main] INFO  CustomTriangleWarehouse - Properties updated: CustomTriangleProperties{area=0.45500000000000534, perimeter=10.838279253109407}
+2021-05-04 11:36:32 [main] INFO  example.shape.observer.impl.CustomTriangleObserverImpl - Parameters updated: 0CustomTriangleProperties{area=0.45500000000000534, perimeter=10.838279253109407}
+2021-05-04 11:36:32 [main] INFO  CustomTriangleService - Perimeter found: 10.838279253109407
+2021-05-04 11:36:32 [main] INFO  CustomTriangleWarehouse - Get properties: 0CustomTriangleProperties{area=0.45500000000000534, perimeter=10.838279253109407}
+2021-05-04 11:36:32 [main] INFO  CustomTriangleService - Perimeter found: 23.432576631668802
+2021-05-04 11:36:32 [main] INFO  CustomTriangleService - Perimeter found: 23.432576631668802
+2021-05-04 11:36:32 [main] INFO  CustomTriangleService - Area found: 2.150000000000051
+2021-05-04 11:36:32 [main] INFO  CustomTriangleWarehouse - Get properties: 0CustomTriangleProperties{area=0.45500000000000534, perimeter=10.838279253109407}
+2021-05-04 11:36:32 [main] INFO  CustomTriangleWarehouse - Properties updated: CustomTriangleProperties{area=2.150000000000051, perimeter=23.432576631668802}
+2021-05-04 11:36:32 [main] INFO  example.shape.observer.impl.CustomTriangleObserverImpl - Parameters updated: 0CustomTriangleProperties{area=2.150000000000051, perimeter=23.432576631668802}
+2021-05-04 11:36:32 [main] INFO  CustomTriangleService - Perimeter found: 23.432576631668802
+2021-05-04 11:36:32 [main] INFO  CustomTriangleWarehouse - Get properties: 0CustomTriangleProperties{area=2.150000000000051, perimeter=23.432576631668802}
+2021-05-04 11:36:42 [main] INFO  CustomTriangleValidator - Couldn't parse to double: wrongLine
+2021-05-04 11:36:42 [main] INFO  CustomTriangleParser - Correct array found: [1.5, 2.6, 3.5, 8.2, 6.2, 9.1]
+2021-05-04 11:36:42 [main] WARN  CustomTriangleParser - Incorrect input data: null or empty list
+2021-05-04 11:36:42 [main] WARN  CustomTriangleParser - Incorrect input data: null or empty list
+2021-05-04 11:36:49 [main] INFO  CustomDataReader - File is read: [2.5 6.2 3.5 7, line, 0 4 6 4 2.4]
+2021-05-04 11:36:49 [main] WARN  CustomDataReader - File doesn't exist: incorrectPath
+2021-05-04 11:36:56 [main] INFO  CustomTriangleService - Perimeter found: 12.867399147927191
+2021-05-04 11:36:56 [main] INFO  CustomTriangleService - Area found: 7.2499999999999964
+2021-05-04 11:36:56 [main] INFO  CustomTriangleService - Perimeter found: 13.049560596490782
+2021-05-04 11:36:56 [main] INFO  CustomTriangleService - Area found: 5.0
+2021-05-04 11:36:56 [main] INFO  CustomTriangleService - Perimeter found: 13.168076704588028
+2021-05-04 11:36:56 [main] INFO  CustomTriangleService - Area found: 4.100000000000006
+2021-05-04 11:36:56 [main] INFO  CustomTriangleService - Perimeter found: 12.867399147927191
+2021-05-04 11:36:56 [main] INFO  CustomTriangleService - Area found: 7.2499999999999964
+2021-05-04 11:36:56 [main] INFO   - Is specified: falseCustomTriangle{id=0, firstPoint=CustomPoint{firstNumber=5.3, secondNumber=2.3}, secondPoint=CustomPoint{firstNumber=2.3, secondNumber=1.3}, thirdPoint=CustomPoint{firstNumber=2.5, secondNumber=6.2}, observer=[]}
+2021-05-04 11:36:56 [main] INFO  CustomTriangleService - Perimeter found: 13.049560596490782
+2021-05-04 11:36:56 [main] INFO  CustomTriangleService - Area found: 5.0
+2021-05-04 11:36:56 [main] INFO   - Is specified: trueCustomTriangle{id=1, firstPoint=CustomPoint{firstNumber=6.2, secondNumber=2.3}, secondPoint=CustomPoint{firstNumber=4.2, secondNumber=5.7}, thirdPoint=CustomPoint{firstNumber=1.2, secondNumber=5.8}, observer=[]}
+2021-05-04 11:36:56 [main] INFO  CustomTriangleService - Perimeter found: 13.168076704588028
+2021-05-04 11:36:56 [main] INFO  CustomTriangleService - Area found: 4.100000000000006
+2021-05-04 11:36:56 [main] INFO   - Is specified: trueCustomTriangle{id=2, firstPoint=CustomPoint{firstNumber=4.2, secondNumber=8.1}, secondPoint=CustomPoint{firstNumber=5.2, secondNumber=6.1}, thirdPoint=CustomPoint{firstNumber=6.2, secondNumber=12.3}, observer=[]}
+2021-05-04 11:36:56 [main] INFO  shape.specification.find.impl.FindSpecificationById - Is specified: falseCustomTriangle{id=0, firstPoint=CustomPoint{firstNumber=5.3, secondNumber=2.3}, secondPoint=CustomPoint{firstNumber=2.3, secondNumber=1.3}, thirdPoint=CustomPoint{firstNumber=2.5, secondNumber=6.2}, observer=[]}
+2021-05-04 11:36:56 [main] INFO  shape.specification.find.impl.FindSpecificationById - Is specified: falseCustomTriangle{id=1, firstPoint=CustomPoint{firstNumber=6.2, secondNumber=2.3}, secondPoint=CustomPoint{firstNumber=4.2, secondNumber=5.7}, thirdPoint=CustomPoint{firstNumber=1.2, secondNumber=5.8}, observer=[]}
+2021-05-04 11:36:56 [main] INFO  shape.specification.find.impl.FindSpecificationById - Is specified: trueCustomTriangle{id=2, firstPoint=CustomPoint{firstNumber=4.2, secondNumber=8.1}, secondPoint=CustomPoint{firstNumber=5.2, secondNumber=6.1}, thirdPoint=CustomPoint{firstNumber=6.2, secondNumber=12.3}, observer=[]}
+2021-05-04 11:36:56 [main] INFO  CustomTriangleService - Perimeter found: 12.867399147927191
+2021-05-04 11:36:56 [main] INFO   - Is specified: trueCustomTriangle{id=0, firstPoint=CustomPoint{firstNumber=5.3, secondNumber=2.3}, secondPoint=CustomPoint{firstNumber=2.3, secondNumber=1.3}, thirdPoint=CustomPoint{firstNumber=2.5, secondNumber=6.2}, observer=[]}
+2021-05-04 11:36:56 [main] INFO  CustomTriangleService - Perimeter found: 13.049560596490782
+2021-05-04 11:36:56 [main] INFO   - Is specified: falseCustomTriangle{id=1, firstPoint=CustomPoint{firstNumber=6.2, secondNumber=2.3}, secondPoint=CustomPoint{firstNumber=4.2, secondNumber=5.7}, thirdPoint=CustomPoint{firstNumber=1.2, secondNumber=5.8}, observer=[]}
+2021-05-04 11:36:56 [main] INFO  CustomTriangleService - Perimeter found: 13.168076704588028
+2021-05-04 11:36:56 [main] INFO   - Is specified: falseCustomTriangle{id=2, firstPoint=CustomPoint{firstNumber=4.2, secondNumber=8.1}, secondPoint=CustomPoint{firstNumber=5.2, secondNumber=6.1}, thirdPoint=CustomPoint{firstNumber=6.2, secondNumber=12.3}, observer=[]}
+2021-05-04 11:36:56 [main] INFO  CustomTriangleService - Perimeter found: 13.049560596490782
+2021-05-04 11:36:56 [main] INFO  CustomTriangleService - Area found: 5.0
+2021-05-04 11:36:56 [main] INFO  CustomTriangleService - Perimeter found: 12.867399147927191
+2021-05-04 11:36:56 [main] INFO  CustomTriangleService - Area found: 7.2499999999999964
+2021-05-04 11:36:56 [main] INFO  example.shape.specification.sort.SortSpecificationByArea - Compare result: -1
+2021-05-04 11:36:56 [main] INFO  CustomTriangleService - Perimeter found: 13.168076704588028
+2021-05-04 11:36:56 [main] INFO  CustomTriangleService - Area found: 4.100000000000006
+2021-05-04 11:36:56 [main] INFO  CustomTriangleService - Perimeter found: 13.049560596490782
+2021-05-04 11:36:56 [main] INFO  CustomTriangleService - Area found: 5.0
+2021-05-04 11:36:56 [main] INFO  example.shape.specification.sort.SortSpecificationByArea - Compare result: -1
+2021-05-04 11:36:56 [main] INFO  example.shape.specification.sort.SortSpecificationById - Compare result: 1
+2021-05-04 11:36:56 [main] INFO  example.shape.specification.sort.SortSpecificationById - Compare result: 1
+2021-05-04 11:36:56 [main] INFO  CustomTriangleService - Perimeter found: 13.049560596490782
+2021-05-04 11:36:56 [main] INFO  CustomTriangleService - Perimeter found: 12.867399147927191
+2021-05-04 11:36:56 [main] INFO  example.shape.specification.sort.SortSpecificationByPerimeter - Compare result: 1
+2021-05-04 11:36:56 [main] INFO  CustomTriangleService - Perimeter found: 13.168076704588028
+2021-05-04 11:36:56 [main] INFO  CustomTriangleService - Perimeter found: 13.049560596490782
+2021-05-04 11:36:56 [main] INFO  example.shape.specification.sort.SortSpecificationByPerimeter - Compare result: 1
+2021-05-04 11:37:02 [main] INFO  CustomTriangleService - Perimeter found: 12.0
+2021-05-04 11:37:02 [main] INFO  CustomTriangleService - Area found: 6.0
+2021-05-04 11:37:02 [main] INFO  CustomTriangleService - Is acute angle triangle: CustomTriangle{id=0, firstPoint=CustomPoint{firstNumber=1.0, secondNumber=1.0}, secondPoint=CustomPoint{firstNumber=5.0, secondNumber=1.0}, thirdPoint=CustomPoint{firstNumber=5.0, secondNumber=4.0}, observer=[]}false
+2021-05-04 11:37:02 [main] INFO  CustomTriangleService - Is acute angle triangle: CustomTriangle{id=2, firstPoint=CustomPoint{firstNumber=1.0, secondNumber=1.0}, secondPoint=CustomPoint{firstNumber=6.0, secondNumber=1.0}, thirdPoint=CustomPoint{firstNumber=5.0, secondNumber=4.0}, observer=[]}true
+2021-05-04 11:37:02 [main] INFO  CustomTriangleService - Is equilateral triangle: CustomTriangle{id=0, firstPoint=CustomPoint{firstNumber=1.0, secondNumber=1.0}, secondPoint=CustomPoint{firstNumber=5.0, secondNumber=1.0}, thirdPoint=CustomPoint{firstNumber=5.0, secondNumber=4.0}, observer=[]}false
+2021-05-04 11:37:02 [main] INFO  CustomTriangleService - Is isosceles triangle: CustomTriangle{id=0, firstPoint=CustomPoint{firstNumber=1.0, secondNumber=1.0}, secondPoint=CustomPoint{firstNumber=5.0, secondNumber=1.0}, thirdPoint=CustomPoint{firstNumber=5.0, secondNumber=4.0}, observer=[]}false
+2021-05-04 11:37:02 [main] INFO  CustomTriangleService - Is obtuse triangle: CustomTriangle{id=0, firstPoint=CustomPoint{firstNumber=1.0, secondNumber=1.0}, secondPoint=CustomPoint{firstNumber=5.0, secondNumber=1.0}, thirdPoint=CustomPoint{firstNumber=5.0, secondNumber=4.0}, observer=[]}false
+2021-05-04 11:37:02 [main] INFO  CustomTriangleService - Is obtuse triangle: CustomTriangle{id=1, firstPoint=CustomPoint{firstNumber=1.0, secondNumber=1.0}, secondPoint=CustomPoint{firstNumber=4.0, secondNumber=1.0}, thirdPoint=CustomPoint{firstNumber=5.0, secondNumber=4.0}, observer=[]}true
+2021-05-04 11:37:02 [main] INFO  CustomTriangleService - Is rectangular triangle: CustomTriangle{id=2, firstPoint=CustomPoint{firstNumber=1.0, secondNumber=1.0}, secondPoint=CustomPoint{firstNumber=6.0, secondNumber=1.0}, thirdPoint=CustomPoint{firstNumber=5.0, secondNumber=4.0}, observer=[]}false
+2021-05-04 11:37:02 [main] INFO  CustomTriangleService - Is rectangular triangle: CustomTriangle{id=0, firstPoint=CustomPoint{firstNumber=1.0, secondNumber=1.0}, secondPoint=CustomPoint{firstNumber=5.0, secondNumber=1.0}, thirdPoint=CustomPoint{firstNumber=5.0, secondNumber=4.0}, observer=[]}true
+2021-05-04 11:37:02 [main] INFO  CustomTriangleService - Is triangle: CustomTriangle{id=0, firstPoint=CustomPoint{firstNumber=1.0, secondNumber=1.0}, secondPoint=CustomPoint{firstNumber=5.0, secondNumber=1.0}, thirdPoint=CustomPoint{firstNumber=5.0, secondNumber=4.0}, observer=[]}false
+2021-05-04 11:37:02 [main] INFO  CustomTriangleService - Perimeter found: 12.0
+2021-05-04 15:52:19 [main] INFO  CustomTriangleValidator - Couldn't parse to double: not double values and double values 13123.12
+2021-05-04 15:52:19 [main] INFO  CustomTriangleValidator - Couldn't parse to double: not double values and double values 125.1
+2021-05-04 15:54:13 [main] INFO  CustomTriangleValidator - Couldn't parse to double: not double values and double values 13123.12
+2021-05-04 15:54:13 [main] INFO  CustomTriangleValidator - Couldn't parse to double: not double values and double values 125.1
+2021-05-04 16:04:16 [main] INFO  CustomDataReader - File is read: [2.5 6.2 3.5 7, line, 0 4 6 4 2.4]
+2021-05-04 16:04:16 [main] INFO  CustomTriangleValidator - Couldn't parse to double: 2.5 6.2 3.5 7
+2021-05-04 16:04:16 [main] INFO  CustomTriangleValidator - Couldn't parse to double: line
+2021-05-04 16:04:16 [main] INFO  CustomTriangleValidator - Couldn't parse to double: 0 4 6 4 2.4
+2021-05-04 16:04:39 [main] INFO  CustomDataReader - File is read: [2.5 6.2 3.5 7, line, 0 4 6 4 2.4]
+2021-05-04 16:04:39 [main] INFO  CustomTriangleValidator - Couldn't parse to double: 2.5 6.2 3.5 7
+2021-05-04 16:04:39 [main] INFO  CustomTriangleValidator - Couldn't parse to double: line
+2021-05-04 16:04:39 [main] INFO  CustomTriangleValidator - Couldn't parse to double: 0 4 6 4 2.4
+2021-05-04 16:04:53 [main] INFO  CustomDataReader - File is read: [2.5 6.2 3.5 7, line, 0 4 6 4 2.4]
+2021-05-04 16:05:18 [main] INFO  CustomTriangleValidator - Couldn't parse to double: 2.5 6.2 3.5 7
+2021-05-04 16:05:34 [main] INFO  CustomTriangleValidator - Couldn't parse to double: line
+2021-05-04 16:05:56 [main] INFO  CustomTriangleValidator - Couldn't parse to double: 0 4 6 4 2.4
+2021-05-04 16:07:52 [main] INFO  CustomDataReader - File is read: [2.5 6.2 3.5 7, line, 0,4,6,4,2.4,6.2]
+2021-05-04 16:07:52 [main] INFO  CustomTriangleValidator - Couldn't parse to double: 2.5 6.2 3.5 7
+2021-05-04 16:07:52 [main] INFO  CustomTriangleValidator - Couldn't parse to double: line
+2021-05-04 16:07:52 [main] INFO  CustomTriangleParser - Correct array found: [0.0, 4.0, 6.0, 4.0, 2.4, 6.2]
+2021-05-04 16:07:52 [main] INFO  CustomTriangleFactory - Triangle created: CustomTriangle{id=0, firstPoint=CustomPoint{firstNumber=0.0, secondNumber=4.0}, secondPoint=CustomPoint{firstNumber=6.0, secondNumber=4.0}, thirdPoint=CustomPoint{firstNumber=2.4, secondNumber=6.2}, observer=[]}
+2021-05-04 16:07:52 [main] INFO  CustomTriangleFactory - Triangle created: CustomTriangle{id=0, firstPoint=CustomPoint{firstNumber=0.0, secondNumber=4.0}, secondPoint=CustomPoint{firstNumber=6.0, secondNumber=4.0}, thirdPoint=CustomPoint{firstNumber=2.4, secondNumber=6.2}, observer=[]}
+2021-05-04 16:07:52 [main] INFO  CustomTriangleService - Perimeter found: 11.147791162724737
+2021-05-04 16:07:52 [main] INFO  CustomTriangleService - Perimeter found: 11.147791162724737
+2021-05-04 16:07:52 [main] INFO  CustomTriangleService - Area found: 3.7900000000000023
+2021-05-04 16:08:23 [main] INFO  CustomDataReader - File is read: [2.5 6.2 3.5 7, line, 0,4,6,4,2.4,6.2]
+2021-05-04 16:08:24 [main] INFO  CustomTriangleValidator - Couldn't parse to double: 2.5 6.2 3.5 7
+2021-05-04 16:08:24 [main] INFO  CustomTriangleValidator - Couldn't parse to double: line
+2021-05-04 16:08:24 [main] INFO  CustomTriangleParser - Correct array found: [0.0, 4.0, 6.0, 4.0, 2.4, 6.2]
+2021-05-04 16:08:25 [main] INFO  CustomTriangleFactory - Triangle created: CustomTriangle{id=0, firstPoint=CustomPoint{firstNumber=0.0, secondNumber=4.0}, secondPoint=CustomPoint{firstNumber=6.0, secondNumber=4.0}, thirdPoint=CustomPoint{firstNumber=2.4, secondNumber=6.2}, observer=[]}
+2021-05-04 16:08:25 [main] INFO  CustomTriangleFactory - Triangle created: CustomTriangle{id=0, firstPoint=CustomPoint{firstNumber=0.0, secondNumber=4.0}, secondPoint=CustomPoint{firstNumber=6.0, secondNumber=4.0}, thirdPoint=CustomPoint{firstNumber=2.4, secondNumber=6.2}, observer=[]}
+2021-05-04 16:08:27 [main] INFO  CustomTriangleService - Perimeter found: 11.147791162724737
+2021-05-04 16:08:27 [main] INFO  CustomTriangleService - Perimeter found: 11.147791162724737
+2021-05-04 16:08:27 [main] INFO  CustomTriangleService - Area found: 3.7900000000000023
+2021-05-04 16:08:36 [main] INFO  CustomDataReader - File is read: [2.5 6.2 3.5 7, line, 0,4,6,4,2.4,6.2]
+2021-05-04 16:08:36 [main] INFO  CustomTriangleValidator - Couldn't parse to double: 2.5 6.2 3.5 7
+2021-05-04 16:08:36 [main] INFO  CustomTriangleValidator - Couldn't parse to double: line
+2021-05-04 16:08:36 [main] INFO  CustomTriangleParser - Correct array found: [0.0, 4.0, 6.0, 4.0, 2.4, 6.2]
+2021-05-04 16:08:36 [main] INFO  CustomTriangleFactory - Triangle created: CustomTriangle{id=0, firstPoint=CustomPoint{firstNumber=0.0, secondNumber=4.0}, secondPoint=CustomPoint{firstNumber=6.0, secondNumber=4.0}, thirdPoint=CustomPoint{firstNumber=2.4, secondNumber=6.2}, observer=[]}
+2021-05-04 16:08:36 [main] INFO  CustomTriangleFactory - Triangle created: CustomTriangle{id=0, firstPoint=CustomPoint{firstNumber=0.0, secondNumber=4.0}, secondPoint=CustomPoint{firstNumber=6.0, secondNumber=4.0}, thirdPoint=CustomPoint{firstNumber=2.4, secondNumber=6.2}, observer=[]}
+2021-05-04 16:08:36 [main] INFO  CustomTriangleService - Perimeter found: 11.147791162724737
+2021-05-04 16:08:36 [main] INFO  CustomTriangleService - Perimeter found: 11.147791162724737
+2021-05-04 16:08:36 [main] INFO  CustomTriangleService - Area found: 3.7900000000000023
+2021-05-04 16:09:25 [main] INFO  CustomDataReader - File is read: [2.5 6.2 3.5 7, line, 0,4,6,4,2.4,6.2]
+2021-05-04 16:09:26 [main] INFO  CustomTriangleValidator - Couldn't parse to double: 2.5 6.2 3.5 7
+2021-05-04 16:09:26 [main] INFO  CustomTriangleValidator - Couldn't parse to double: line
+2021-05-04 16:09:26 [main] INFO  CustomTriangleParser - Correct array found: [0.0, 4.0, 6.0, 4.0, 2.4, 6.2]
+2021-05-04 16:09:26 [main] INFO  CustomTriangleFactory - Triangle created: CustomTriangle{id=0, firstPoint=CustomPoint{firstNumber=0.0, secondNumber=4.0}, secondPoint=CustomPoint{firstNumber=6.0, secondNumber=4.0}, thirdPoint=CustomPoint{firstNumber=2.4, secondNumber=6.2}, observer=[]}
+2021-05-04 16:09:26 [main] INFO  CustomTriangleFactory - Triangle created: CustomTriangle{id=0, firstPoint=CustomPoint{firstNumber=0.0, secondNumber=4.0}, secondPoint=CustomPoint{firstNumber=6.0, secondNumber=4.0}, thirdPoint=CustomPoint{firstNumber=2.4, secondNumber=6.2}, observer=[]}
+2021-05-04 16:09:27 [main] INFO  CustomTriangleService - Perimeter found: 11.147791162724737
+2021-05-04 16:09:27 [main] INFO  CustomTriangleService - Perimeter found: 11.147791162724737
+2021-05-04 16:09:27 [main] INFO  CustomTriangleService - Area found: 3.7900000000000023
+2021-05-04 16:09:55 [main] INFO  CustomDataReader - File is read: [2.5 6.2 3.5 7, line, 0,4,6,4,2.4,6.2]
+2021-05-04 16:09:55 [main] INFO  CustomTriangleValidator - Couldn't parse to double: 2.5 6.2 3.5 7
+2021-05-04 16:09:55 [main] INFO  CustomTriangleValidator - Couldn't parse to double: line
+2021-05-04 16:09:55 [main] INFO  CustomTriangleParser - Correct array found: [0.0, 4.0, 6.0, 4.0, 2.4, 6.2]
+2021-05-04 16:09:55 [main] INFO  CustomTriangleFactory - Triangle created: CustomTriangle{id=0, firstPoint=CustomPoint{firstNumber=0.0, secondNumber=4.0}, secondPoint=CustomPoint{firstNumber=6.0, secondNumber=4.0}, thirdPoint=CustomPoint{firstNumber=2.4, secondNumber=6.2}, observer=[]}
+2021-05-04 16:09:55 [main] INFO  CustomTriangleFactory - Triangle created: CustomTriangle{id=0, firstPoint=CustomPoint{firstNumber=0.0, secondNumber=4.0}, secondPoint=CustomPoint{firstNumber=6.0, secondNumber=4.0}, thirdPoint=CustomPoint{firstNumber=2.4, secondNumber=6.2}, observer=[]}
+2021-05-04 16:09:55 [main] INFO  CustomTriangleService - Perimeter found: 11.147791162724737
+2021-05-04 16:09:55 [main] INFO  CustomTriangleService - Perimeter found: 11.147791162724737
+2021-05-04 16:09:55 [main] INFO  CustomTriangleService - Area found: 3.7900000000000023
+2021-05-04 16:10:24 [main] INFO  CustomDataReader - File is read: [2.5 6.2 3.5 7, line, 0,4,6,4,2.4,6.2]
+2021-05-04 16:10:24 [main] INFO  CustomTriangleValidator - Couldn't parse to double: 2.5 6.2 3.5 7
+2021-05-04 16:10:24 [main] INFO  CustomTriangleValidator - Couldn't parse to double: line
+2021-05-04 16:10:24 [main] INFO  CustomTriangleParser - Correct array found: [0.0, 4.0, 6.0, 4.0, 2.4, 6.2]
+2021-05-04 16:10:24 [main] INFO  CustomTriangleFactory - Triangle created: CustomTriangle{id=0, firstPoint=CustomPoint{firstNumber=0.0, secondNumber=4.0}, secondPoint=CustomPoint{firstNumber=6.0, secondNumber=4.0}, thirdPoint=CustomPoint{firstNumber=2.4, secondNumber=6.2}, observer=[]}
+2021-05-04 16:10:24 [main] INFO  CustomTriangleFactory - Triangle created: CustomTriangle{id=0, firstPoint=CustomPoint{firstNumber=0.0, secondNumber=4.0}, secondPoint=CustomPoint{firstNumber=6.0, secondNumber=4.0}, thirdPoint=CustomPoint{firstNumber=2.4, secondNumber=6.2}, observer=[]}
+2021-05-04 16:10:28 [main] INFO  CustomTriangleService - Perimeter found: 11.147791162724737
+2021-05-04 16:10:29 [main] INFO  CustomTriangleService - Perimeter found: 11.147791162724737
+2021-05-04 16:10:29 [main] INFO  CustomTriangleService - Area found: 3.7900000000000023
+2021-05-04 16:11:19 [main] INFO  CustomDataReader - File is read: [2.5 6.2 3.5 7, line, 0,4,6,4,2.4,6.2]
+2021-05-04 16:11:19 [main] INFO  CustomTriangleValidator - Couldn't parse to double: 2.5 6.2 3.5 7
+2021-05-04 16:11:19 [main] INFO  CustomTriangleValidator - Couldn't parse to double: line
+2021-05-04 16:11:19 [main] INFO  CustomTriangleParser - Correct array found: [0.0, 4.0, 6.0, 4.0, 2.4, 6.2]
+2021-05-04 16:11:19 [main] INFO  CustomTriangleFactory - Triangle created: CustomTriangle{id=0, firstPoint=CustomPoint{firstNumber=0.0, secondNumber=4.0}, secondPoint=CustomPoint{firstNumber=6.0, secondNumber=4.0}, thirdPoint=CustomPoint{firstNumber=2.4, secondNumber=6.2}, observer=[]}
+2021-05-04 16:11:19 [main] INFO  CustomTriangleFactory - Triangle created: CustomTriangle{id=0, firstPoint=CustomPoint{firstNumber=0.0, secondNumber=4.0}, secondPoint=CustomPoint{firstNumber=6.0, secondNumber=4.0}, thirdPoint=CustomPoint{firstNumber=2.4, secondNumber=6.2}, observer=[]}
+2021-05-04 16:11:19 [main] INFO  CustomTriangleService - Perimeter found: 11.147791162724737
+2021-05-04 16:11:19 [main] INFO  CustomTriangleService - Perimeter found: 11.147791162724737
+2021-05-04 16:11:19 [main] INFO  CustomTriangleService - Area found: 3.7900000000000023
+2021-05-04 16:11:36 [main] INFO  CustomDataReader - File is read: [2.5 6.2 3.5 7, line, 0,4,6,4,2.4,6.2]
+2021-05-04 16:11:36 [main] INFO  CustomTriangleValidator - Couldn't parse to double: 2.5 6.2 3.5 7
+2021-05-04 16:11:36 [main] INFO  CustomTriangleValidator - Couldn't parse to double: line
+2021-05-04 16:11:36 [main] INFO  CustomTriangleParser - Correct array found: [0.0, 4.0, 6.0, 4.0, 2.4, 6.2]
+2021-05-04 16:11:36 [main] INFO  CustomTriangleFactory - Triangle created: CustomTriangle{id=0, firstPoint=CustomPoint{firstNumber=0.0, secondNumber=4.0}, secondPoint=CustomPoint{firstNumber=6.0, secondNumber=4.0}, thirdPoint=CustomPoint{firstNumber=2.4, secondNumber=6.2}, observer=[]}
+2021-05-04 16:11:36 [main] INFO  CustomTriangleFactory - Triangle created: CustomTriangle{id=0, firstPoint=CustomPoint{firstNumber=0.0, secondNumber=4.0}, secondPoint=CustomPoint{firstNumber=6.0, secondNumber=4.0}, thirdPoint=CustomPoint{firstNumber=2.4, secondNumber=6.2}, observer=[]}
+2021-05-04 16:11:36 [main] INFO  CustomTriangleService - Perimeter found: 11.147791162724737
+2021-05-04 16:11:36 [main] INFO  CustomTriangleService - Perimeter found: 11.147791162724737
+2021-05-04 16:11:36 [main] INFO  CustomTriangleService - Area found: 3.7900000000000023
+2021-05-04 16:11:36 [main] INFO  CustomTriangleWarehouse - Properties are set: CustomTriangleProperties{area=3.7900000000000023, perimeter=11.147791162724737}
+2021-05-04 16:11:36 [main] INFO  example.shape.observer.impl.CustomTriangleObserverImpl - Parameters updated: 0CustomTriangleProperties{area=3.7900000000000023, perimeter=11.147791162724737}
+2021-05-04 16:11:36 [main] INFO  CustomTriangleService - Perimeter found: 11.147791162724737
+2021-05-04 16:12:19 [main] INFO  CustomDataReader - File is read: [2.5 6.2 3.5 7, line, 0,4,6,4,2.4,6.2]
+2021-05-04 16:12:19 [main] INFO  CustomTriangleValidator - Couldn't parse to double: 2.5 6.2 3.5 7
+2021-05-04 16:12:19 [main] INFO  CustomTriangleValidator - Couldn't parse to double: line
+2021-05-04 16:12:19 [main] INFO  CustomTriangleParser - Correct array found: [0.0, 4.0, 6.0, 4.0, 2.4, 6.2]
+2021-05-04 16:12:19 [main] INFO  CustomTriangleFactory - Triangle created: CustomTriangle{id=0, firstPoint=CustomPoint{firstNumber=0.0, secondNumber=4.0}, secondPoint=CustomPoint{firstNumber=6.0, secondNumber=4.0}, thirdPoint=CustomPoint{firstNumber=2.4, secondNumber=6.2}, observer=[]}
+2021-05-04 16:12:19 [main] INFO  CustomTriangleFactory - Triangle created: CustomTriangle{id=0, firstPoint=CustomPoint{firstNumber=0.0, secondNumber=4.0}, secondPoint=CustomPoint{firstNumber=6.0, secondNumber=4.0}, thirdPoint=CustomPoint{firstNumber=2.4, secondNumber=6.2}, observer=[]}
+2021-05-04 16:12:19 [main] INFO  CustomTriangleService - Perimeter found: 13.474768741165738
+2021-05-04 16:12:19 [main] INFO  CustomTriangleService - Perimeter found: 11.147791162724737
+2021-05-04 16:12:19 [main] INFO  CustomTriangleService - Perimeter found: 11.147791162724737
+2021-05-04 16:12:19 [main] INFO  CustomTriangleService - Area found: 3.7900000000000023
+2021-05-04 16:12:19 [main] INFO  CustomTriangleWarehouse - Properties are set: CustomTriangleProperties{area=3.7900000000000023, perimeter=11.147791162724737}
+2021-05-04 16:12:19 [main] INFO  example.shape.observer.impl.CustomTriangleObserverImpl - Parameters updated: 0CustomTriangleProperties{area=3.7900000000000023, perimeter=11.147791162724737}
+2021-05-04 16:12:19 [main] INFO  CustomTriangleService - Perimeter found: 11.147791162724737

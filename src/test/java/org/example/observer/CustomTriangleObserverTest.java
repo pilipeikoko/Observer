@@ -1,11 +1,11 @@
 package org.example.observer;
 
-import org.example.shape.entity.CustomPoint;
-import org.example.shape.entity.CustomTriangle;
-import org.example.shape.entity.CustomTriangleProperties;
-import org.example.shape.observer.impl.CustomTriangleObserverImpl;
-import org.example.shape.service.CustomTriangleService;
-import org.example.shape.warehouse.CustomTriangleWarehouse;
+import org.epam.shape.entity.CustomPoint;
+import org.epam.shape.entity.CustomTriangle;
+import org.epam.shape.entity.CustomTriangleProperties;
+import org.epam.shape.observer.impl.CustomTriangleObserverImpl;
+import org.epam.shape.service.CustomTriangleService;
+import org.epam.shape.warehouse.CustomTriangleWarehouse;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;

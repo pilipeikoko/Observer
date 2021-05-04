@@ -1,7 +1,7 @@
 package org.example.reader;
 
-import org.example.shape.exception.CustomException;
-import org.example.shape.reader.CustomDataReader;
+import org.epam.shape.exception.CustomException;
+import org.epam.shape.reader.CustomDataReader;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

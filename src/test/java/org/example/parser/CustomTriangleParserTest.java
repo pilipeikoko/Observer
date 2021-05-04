@@ -1,7 +1,7 @@
 package org.example.parser;
 
-import org.example.shape.exception.CustomException;
-import org.example.shape.parser.CustomTriangleParser;
+import org.epam.shape.exception.CustomException;
+import org.epam.shape.parser.CustomTriangleParser;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

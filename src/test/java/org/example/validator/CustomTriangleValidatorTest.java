@@ -1,7 +1,6 @@
 package org.example.validator;
 
-import org.example.shape.entity.CustomTriangle;
-import org.example.shape.validator.CustomTriangleValidator;
+import org.epam.shape.validator.CustomTriangleValidator;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

@@ -1,8 +1,8 @@
 package org.example.service;
 
-import org.example.shape.entity.CustomPoint;
-import org.example.shape.entity.CustomTriangle;
-import org.example.shape.service.CustomTriangleService;
+import org.epam.shape.entity.CustomPoint;
+import org.epam.shape.entity.CustomTriangle;
+import org.epam.shape.service.CustomTriangleService;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
