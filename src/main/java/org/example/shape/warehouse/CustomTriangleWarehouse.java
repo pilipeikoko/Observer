@@ -27,7 +27,7 @@ public class CustomTriangleWarehouse {
 
     public CustomTriangleProperties getProperty(long id) {
         CustomTriangleProperties currentProperties = trianglePropertiesMap.get(id);
-        //todo logger
+        LOGGER.info("Get properties: " + id + currentProperties.toString());
         return currentProperties;
     }
 
