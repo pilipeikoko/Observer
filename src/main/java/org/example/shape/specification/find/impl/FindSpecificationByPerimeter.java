@@ -9,8 +9,8 @@ import org.example.shape.specification.find.FindSpecification;
 public class FindSpecificationByPerimeter implements FindSpecification {
     private static Logger LOGGER = LogManager.getRootLogger();
 
-    private double minimalPerimeter;
-    private double maximalPerimeter;
+    private final double minimalPerimeter;
+    private final double maximalPerimeter;
 
     public FindSpecificationByPerimeter(double minPerimeter, double maxPerimeter) {
         this.minimalPerimeter = minPerimeter;
@@ -25,6 +25,8 @@ public class FindSpecificationByPerimeter implements FindSpecification {
         double currentPerimeter = triangleService.getTrianglePerimeter(triangle);
 
         boolean flag = currentPerimeter >=minimalPerimeter && currentPerimeter <=maximalPerimeter;
+
+        LOGGER.info("Is specified: " + flag + triangle.toString() );
 
         return flag;
     }

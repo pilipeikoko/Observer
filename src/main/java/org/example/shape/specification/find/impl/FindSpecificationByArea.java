@@ -10,8 +10,8 @@ public class FindSpecificationByArea implements FindSpecification {
 
     private static Logger LOGGER = LogManager.getRootLogger();
 
-    private double minimalArea;
-    private double maximalArea;
+    private final double minimalArea;
+    private final double maximalArea;
 
     public FindSpecificationByArea(double minimalArea, double maximalArea) {
         this.minimalArea = minimalArea;
@@ -26,7 +26,9 @@ public class FindSpecificationByArea implements FindSpecification {
         double currentArea = triangleService.getTriangleArea(triangle);
 
         boolean flag = currentArea >= minimalArea && currentArea <= maximalArea;
-//todo logger
+
+        LOGGER.info("Is specified: " + flag + triangle.toString() );
+
         return flag;
     }
 }
