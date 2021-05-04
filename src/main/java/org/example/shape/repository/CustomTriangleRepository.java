@@ -10,10 +10,8 @@ import java.util.List;
 
 public interface CustomTriangleRepository {
     void add(CustomTriangle triangle);
-    void addAll(Collection<CustomTriangle> triangles);
 
     boolean remove(CustomTriangle figure);
-    boolean removeAll(Collection<CustomTriangle> collection);
 
     void clear();
 

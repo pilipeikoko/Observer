@@ -6,14 +6,8 @@ import org.apache.logging.log4j.Logger;
 public class CustomPoint implements Cloneable {
     private static final Logger LOGGER = LogManager.getLogger();
 
-    //todo logger for clone
     private double firstNumber;
     private double secondNumber;
-
-    public CustomPoint(CustomPoint point) {
-        this.firstNumber = point.firstNumber;
-        this.secondNumber = point.secondNumber;
-    }
 
     public CustomPoint(double firstNumber, double secondNumber) {
         this.firstNumber = firstNumber;

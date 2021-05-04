@@ -22,7 +22,7 @@ public class CustomTriangleValidatorTest {
 
     @Test
     public void isDoubleValueFalseTest(){
-        String value = "Hello world";
+        String value = "not double values and double values 13123.12";
 
         boolean expected = false;
         boolean actual = CustomTriangleValidator.isDoubleValue(value);
@@ -54,7 +54,7 @@ public class CustomTriangleValidatorTest {
     public void isListCorrectTrueTest(){
         List<String> arrayList = new ArrayList<>();
 
-        arrayList.add("Hello world");
+        arrayList.add("not double values and double values 1.2");
 
         boolean expected = true;
         boolean actual = CustomTriangleValidator.isListCorrect(arrayList);
@@ -74,7 +74,7 @@ public class CustomTriangleValidatorTest {
 
     @Test
     public void isDoubleValuesFalseTest(){
-        String line = "not double values";
+        String line = "not double values and double values 125.1";
 
         boolean expected = false;
         boolean actual = CustomTriangleValidator.isDoublesValues(line);

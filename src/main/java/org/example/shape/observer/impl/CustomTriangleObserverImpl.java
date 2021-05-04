@@ -1,5 +1,7 @@
 package org.example.shape.observer.impl;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.example.shape.entity.CustomTriangle;
 import org.example.shape.entity.CustomTriangleProperties;
 import org.example.shape.exception.CustomException;
@@ -9,6 +11,7 @@ import org.example.shape.service.CustomTriangleService;
 import org.example.shape.warehouse.CustomTriangleWarehouse;
 
 public class CustomTriangleObserverImpl implements CustomTriangleObserver {
+    private static final Logger LOGGER = LogManager.getLogger();
     @Override
     public void parameterChanged(CustomTriangleEvent event) {
         CustomTriangle triangle = event.getSource();
@@ -22,6 +25,6 @@ public class CustomTriangleObserverImpl implements CustomTriangleObserver {
 
         triangleWarehouse.updateProperties(triangle.getId(),newProperties);
 
-        //todo if throws just set the parameters
+        LOGGER.info("Parameters updated: " + triangle.getId() + newProperties.toString());
     }
 }

@@ -1,5 +1,7 @@
 package org.example.shape.service;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.example.shape.entity.CustomPoint;
 import org.example.shape.entity.CustomTriangle;
 
@@ -8,6 +10,7 @@ import static java.lang.Math.sqrt;
 import static java.lang.Math.pow;
 
 public class CustomTriangleService {
+    private static final Logger LOGGER = LogManager.getLogger();
 
     public double getTrianglePerimeter(CustomTriangle triangle) {
         double firstSideLength = getSegmentLength(triangle.getFirstPoint(), triangle.getSecondPoint());
@@ -16,6 +19,7 @@ public class CustomTriangleService {
 
         double perimeter = firstSideLength + secondSideLength + thirdSideLength;
 
+        LOGGER.info("Perimeter found: " + perimeter);
         return perimeter;
     }
 
@@ -31,6 +35,8 @@ public class CustomTriangleService {
         double area = sqrt(semiPerimeter * (semiPerimeter - firstSideLength)
                 * (semiPerimeter - secondSideLength) * (semiPerimeter - thirdSideLength));
 
+
+        LOGGER.info("Area found: " + area);
         return area;
 
     }
@@ -44,6 +50,8 @@ public class CustomTriangleService {
                 && firstPoint.getFirstNumber() == thirdPoint.getFirstNumber())
                 || (firstPoint.getSecondNumber() == secondPoint.getSecondNumber()
                 && firstPoint.getSecondNumber() == thirdPoint.getSecondNumber());
+
+        LOGGER.info("Is triangle: " + triangle.toString() + flag);
 
         return !flag;
     }
@@ -61,6 +69,8 @@ public class CustomTriangleService {
                 || (secondSideLengthSquared == (firstSideLengthSquared + thirdSideLengthSquared))
                 || (thirdSideLengthSquared == (firstSideLengthSquared + secondSideLengthSquared));
 
+        LOGGER.info("Is rectangular triangle: " + triangle.toString() + flag);
+
         return flag;
     }
 
@@ -73,7 +83,7 @@ public class CustomTriangleService {
                 || firstSideLength == thirdSideLength
                 || secondSideLength == thirdSideLength;
 
-        ;
+        LOGGER.info("Is isosceles triangle: " + triangle.toString() + flag);
 
         return flag;
     }
@@ -84,6 +94,9 @@ public class CustomTriangleService {
         double thirdSideLength = getSegmentLength(triangle.getThirdPoint(), triangle.getFirstPoint());
 
         boolean flag = firstSideLength == secondSideLength && firstSideLength == thirdSideLength;
+
+        LOGGER.info("Is equilateral triangle: " + triangle.toString() + flag);
+
 
         return flag;
     }
@@ -111,6 +124,8 @@ public class CustomTriangleService {
 
         boolean flag = firstSideLengthSquared < secondSideLengthSquared + thirdSideLengthSquared;
 
+        LOGGER.info("Is acute angle triangle: " + triangle.toString() + flag);
+
         return flag;
     }
 
@@ -136,6 +151,9 @@ public class CustomTriangleService {
         double thirdSideLengthSquared = pow(thirdSideLength, 2);
 
         boolean flag = firstSideLengthSquared > secondSideLengthSquared + thirdSideLengthSquared;
+
+        LOGGER.info("Is obtuse triangle: " + triangle.toString() + flag);
+
 
         return flag;
     }

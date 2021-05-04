@@ -5,14 +5,13 @@ import org.example.shape.repository.CustomTriangleRepository;
 import org.example.shape.specification.find.FindSpecification;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
 public class CustomTriangleRepositoryImpl implements CustomTriangleRepository {
     private static final CustomTriangleRepository instance = new CustomTriangleRepositoryImpl();
-    private List<CustomTriangle> listOfTriangles;
+    private final List<CustomTriangle> listOfTriangles;
 
     private CustomTriangleRepositoryImpl(){
         listOfTriangles = new ArrayList<>();
@@ -32,20 +31,8 @@ public class CustomTriangleRepositoryImpl implements CustomTriangleRepository {
     }
 
     @Override
-    public void addAll(Collection<CustomTriangle> triangles) {
-        listOfTriangles.addAll(triangles);
-    }
-
-    @Override
     public boolean remove(CustomTriangle triangle) {
         boolean flag = listOfTriangles.remove(triangle);
-
-        return flag;
-    }
-
-    @Override
-    public boolean removeAll(Collection<CustomTriangle> collection) {
-        boolean flag = listOfTriangles.removeAll(collection);
 
         return flag;
     }

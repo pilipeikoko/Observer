@@ -20,7 +20,7 @@ public class CustomTriangle implements CustomTriangleObservable {
     private CustomPoint secondPoint;
     private CustomPoint thirdPoint;
 
-    private List<CustomTriangleObserver> observer;
+    private final List<CustomTriangleObserver> observer;
 
     {
         id = IdGenerator.generateId();
@@ -90,7 +90,7 @@ public class CustomTriangle implements CustomTriangleObservable {
             try {
                 customTriangleObserver.parameterChanged(event);
             } catch (CustomException e) {
-                //log
+                LOGGER.warn("Couldn't notify observer: " + e.getMessage());
             }
         }
     }
