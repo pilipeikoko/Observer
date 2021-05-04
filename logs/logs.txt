@@ -1,0 +1,6 @@
+2021-05-04 11:12:22 [main] INFO  org.example.shape.validator.CustomTriangleValidator - Couldn't parse to double: Hello world
+2021-05-04 11:12:22 [main] INFO  org.example.shape.validator.CustomTriangleValidator - Couldn't parse to double: not double values
+2021-05-04 11:13:11 [main] INFO  org.example.shape.validator.CustomTriangleValidator - Couldn't parse to double: Hello world
+2021-05-04 11:13:11 [main] INFO  org.example.shape.validator.CustomTriangleValidator - Couldn't parse to double: not double values and double values 125.1
+2021-05-04 11:14:03 [main] INFO  org.example.shape.validator.CustomTriangleValidator - Couldn't parse to double: not double values and double values 13123.12
+2021-05-04 11:14:03 [main] INFO  org.example.shape.validator.CustomTriangleValidator - Couldn't parse to double: not double values and double values 125.1
